@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+   <script src="./index.js" defer></script> 
+   <style>     
+        body{
+            font-family: sans-serif;
+            text-align: center;
+        }
+        input{
+            
+            display: block;
+            margin: auto;
+            margin-bottom: 15px;
+        }
+        form{
+    border: 3px solid rgb(102, 237, 100);
+    background-color: aqua;
+    padding: 25px;
+    width: 200px;
+    margin-left: 380px;
+    border-radius: 25px;
+    text-align-last: center;
+    
+    
+}
+input{
+    background-color: rgb(109, 245, 104);
+}
+div{
+    background-color: aqua;
+    width: 300px;
+    height: 350px;
+    border-radius: 25px;
+    border: solid 5px coral;
+    margin-top: 50px;
+    margin-left: 400px;
+}
+        
+    </style>
+
+</head>
+<div>
+    <body>
+        <h1>CALCULADORA HTML</h1>
+    
+          <input type="text" id="op1" placeholder="Operador 1">
+          <input type="text" id="operacion" placeholder="+.-,*./">
+          <input type="text" id="op2" placeholder="Operador 2">
+          <input type="submit" value="calcular" id="calcular" onclick=calcular()>
+          <p id="resultado"></p>
+         
+        
+        
+    </body>
+</div>
+
+</html>
